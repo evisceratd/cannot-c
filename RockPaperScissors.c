@@ -19,7 +19,7 @@ void swit(char player_input, int ran1);
   } else {
    swit(player_input, ran1); 
   }
-    printf("\n %d was the number generated\n",ran1);
+    printf("(\n%d was the number generated)\n",ran1);
 return 0;
 }
   //function prototype for the actual switch func
