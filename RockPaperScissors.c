@@ -10,7 +10,7 @@ void swit(char player_input, int ran1);
   //Generating pseudo random numbers (1-3)
   srand(time(0));
  int ran1 = (rand()%3)+1;
-  //Different scenes evaluaiton.
+  //Different scene evaluation.
   if(player_input != 'P'&& player_input !=  'S'&& player_input != 'R'){
         printf("Type either R for Rock, P for Paper or S for Scissors\n"
       );
@@ -19,7 +19,7 @@ void swit(char player_input, int ran1);
   } else {
    swit(player_input, ran1); 
   }
-    printf("(\n%d was the number generated)\n",ran1);
+    printf("\n(randdom number generated: %d)\n",ran1);
 return 0;
 }
   //function prototype for the actual switch func
