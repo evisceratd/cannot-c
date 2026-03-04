@@ -17,7 +17,10 @@ void gen();
      if(sec_prompt=='y'){ 
      continue;
      }
-     else if(sec_prompt=='n') break;
+     else if(sec_prompt=='n'){ 
+      printf("Alright...\n");
+      break;
+     }
      else printf("Invalid prompt!\n"); 
      }
      break;
