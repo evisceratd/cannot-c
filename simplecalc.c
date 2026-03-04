@@ -3,7 +3,7 @@ int main()
 {
 char opr;
 double num1, num2, result;
-printf("Enter an arithmetc operator (+ - * /):\n>");
+printf("Enter an arithmetic operator (+ - * /):\n>");
 scanf("%c", &opr);
 printf("Enter first number: \n>");
  scanf("%lf",&num1);
